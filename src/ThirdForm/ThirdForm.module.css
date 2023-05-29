@@ -1,0 +1,252 @@
+.thirdForm {
+   width: 1100px;
+   height: 100%;
+   border: 2px solid var(--red);
+   border-radius: 10px 10px 0px 0px;
+}
+ 
+.thirdForm legend {
+   font-weight: 600;
+   width: 1100px;
+   height: 50px;
+   top: 20px;
+   left: calc(50% - 1100px/2);
+   background: var(--red);
+   color: white;
+   text-align: center;
+   padding-top: 10px;
+   border-radius: 10px 10px 0px 0px;
+   margin-left: -2px;
+}
+
+.model1 {
+   box-sizing: border-box;
+   margin-top: 10px;
+   display: flex;
+   align-items: center;
+   padding: 13px 31px;
+   gap: 23px;
+   justify-content: center;
+}
+input[id=n] {
+   width: 240px;
+}
+
+.date {
+   font-weight: 600;
+   text-align: left;
+}
+input[id=date] {
+   height: 44px;
+   width: 190px;
+   background: var(--red);
+   color: white;
+   font-size: 18px;
+   font-weight: 400;
+}
+input[type=date]::-webkit-calendar-picker-indicator  {
+   background-color: white;
+   padding: 5px;
+   border-radius: 6px;
+   cursor: pointer;
+}
+::-moz-calendar-picker-indicator {
+   width: 0px;
+   height: 0px;
+   padding: 5px;
+   cursor: pointer;
+}
+::-o-calendar-picker-indicator {
+   width: 0px;
+   height: 0px;
+   padding: 5px;
+   cursor: pointer;
+}
+::-ms-calendar-picker-indicator {
+   width: 0px;
+   height: 0px;
+   padding: 5px;
+   cursor: pointer;
+}
+.date label {
+   display: flex;
+}
+
+.check {
+   display: flex;
+   margin-top: 25px;
+   margin-left: -10px;
+   width: 150px;
+   height: 45px;
+   padding-top: 12px;
+   padding-left: 17px;
+   background: var(--red);
+   border-radius: 10px;
+   color: white;
+   font-size: 14px;
+   font-weight: 300;
+}
+input[id=unwr] {
+   margin-top: -11px;
+   margin-right: 8px;
+}
+
+.obs {
+   margin-left: 85px;
+   margin-top: 30px;
+   padding-bottom: 10px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 15px;
+   line-height: 22px;
+   display: flex;
+   align-items: center;
+   color: #3333338e;
+}
+
+.input {
+   display: block;
+   text-align: left;
+   margin-left: 53px;
+   padding-bottom: 5px;
+}
+input[id=pay] {
+   text-align: left;
+   padding-left: 30px;
+   width: 987px;
+   height: 44px;
+}
+
+.model2 {
+   box-sizing: border-box;
+   margin-top: 5px;
+   display: flex;
+   align-items: center;
+   padding: 10px 31px;
+   gap: 60px;
+   justify-content: center;
+}
+input[id=reb] {
+   width: 299px;
+}
+input[id=rea] {
+   width: 628px;
+}
+
+.model3 {
+   box-sizing: border-box;
+   margin-top: 5px;
+   display: flex;
+   align-items: center;
+   padding: 10px 31px;
+   gap: 60px;
+   justify-content: center;
+}
+input[id=add] {
+   width: 299px;
+}
+
+input[id=ob] {
+   width: 991px;
+}
+
+.box {
+   display: block;
+   position: relative;
+   width: 1000px;
+   height: 250px;
+   top: 100px;
+   left: calc(50% - 1000px/2);
+   border: 2px solid var(--red);
+   border-radius: 10px 10px 0px 0px solid var(--red);
+}
+.title {
+   position: absolute;
+   width: 1000px;
+   height: 50px;
+   top: -10px;
+   left: calc(50% - 1000px/2);
+   background: var(--red);
+   color: white;
+   text-align: center;
+   padding-top: 10px;
+   border-radius: 10px 10px 0px 0px;
+}
+.box p {
+   box-sizing: border-box;
+   margin-top: 50px;
+   display: flex;
+   align-items: center;
+   padding: 10px 31px;
+   gap: 60px;
+   align-items: center;
+   justify-content: center;
+}
+input[id=ps] {
+   width: 900px;
+}
+
+.box div {
+   box-sizing: border-box;
+   margin-top: 5px;
+   margin-left: 15px;
+   display: flex;
+   padding: 10px 31px;
+   gap: 60px;
+   align-items:baseline;
+}
+.box div input {
+   width: 230px;
+}
+
+.btn {
+   margin-top: 160px;
+   padding-bottom: 40px;
+}
+.btn button {
+   color: white;
+}
+.btn p {
+   font-size: 14px;
+}
+
+.box2 {
+   position: absolute;
+   width: 1100px;
+   height: 174px;
+   left: calc(50% - 1100px/2);
+   top: 3040px;
+   background-color: var(--red);
+   border-radius: 0px 0px 10px 10px;
+   align-items: center;
+   justify-content: center;
+   display: block;
+}
+.btnGreen {
+   width: 209px;
+   height: 49px;
+   display: flex;
+   margin-left: 447px;
+   margin-top: 28px;
+   justify-content: center;
+   color: white;
+   font-size: 18px;
+}
+.btnRed {
+   display: flex;
+   width: 209px;
+   height: 35px;
+   background-color: var(--red-700);
+   margin-left: 447px;
+   margin-top: 30px;
+   color: white;
+   font-size: 11px;
+   font-weight: 300;
+   gap: 8px;
+}
+
+footer {
+   margin-top: 100px;
+   height: 80px;
+}

@@ -1,0 +1,77 @@
+:root {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  font-weight: 300, 500, 600;
+
+  --red-700: #B90A2F;
+  --red: #FF2D55;
+  --red-100: #EC5F7D;
+  --green: #5CB85C;
+  --black-600: #333333;
+  --black-300: #686868;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button {
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--green);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+label {
+  text-align: left;
+  font-weight: 600;
+} 
+
+input {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 13px 11px;
+  padding-left: 30px;
+  color: #686868;
+  border: 1px solid #FF2D55;
+  border-radius: 10px;
+}
+select {
+  text-align:center ;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 13px 11px;
+  padding-right: 180px;
+  color: #686868;
+  border: 1px solid #FF2D55;
+  border-radius: 10px;
+  appearance: none;
+}

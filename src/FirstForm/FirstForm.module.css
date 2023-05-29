@@ -1,0 +1,215 @@
+.firstForm {
+   width: 1100px;
+   height: 100%;
+   border: 2px solid var(--red);
+   border-radius: 10px 10px 0px 0px;
+}
+
+.legend {
+   font-weight: 600;
+   width: 1100px;
+   height: 50px;
+   top: 20px;
+   left: calc(50% - 1100px/2);
+   position: absolute;
+   background: var(--red);
+   color: white;
+   text-align: center;
+   padding-top: 10px;
+   border-radius: 10px 10px 0px 0px;
+}
+
+.box {
+   display: flex;
+   position: relative;
+   width: 1000px;
+   height: 370px;
+   top: 100px;
+   left: calc(50% - 1000px/2);
+   border: 2px solid var(--red);
+   border-radius: 10px 10px 0px 0px solid var(--red);
+}
+
+.title {
+  position: absolute;
+  width: 1000px;
+  height: 50px;
+  top: -10px;
+  left: calc(50% - 1000px/2);
+  background: var(--red);
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+.remove {
+  display: flex;
+  width: 225px;
+  height: 35px;
+  background-color: var(--red-100);
+  margin-top: 90px;
+  margin-left: 350px;
+  color: white;
+  font-size: 11px;
+  font-weight: 500;
+  gap: 8px;
+  justify-content: center;
+}
+
+.logo {
+  position: absolute;
+  width: 247px;
+  height: 145px;
+  left: 630px;
+  top: 170px;
+  background: var(--red);
+  border-radius: 10px;
+  color: white;
+  padding-top: 55px;
+}
+.logo a {
+  cursor: pointer;
+}
+
+.box p {
+   width: 490px;
+   padding: 30px 30px 20px 30px;
+   margin-top: 80px;
+   text-align: left;
+   color: #333333;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 300;
+}
+
+.tip {
+   text-align: center;
+   background: var(--green);
+   color: white;
+   width: 100px;
+   height: 50px;
+   margin-top: 300px;
+   margin-left: -300px;
+}
+
+.forms {
+   margin-top: 140px;
+   display: flex;
+   align-items: center;
+   padding: 13px 31px;
+   gap: 75px;
+   align-items: center;
+   justify-content: center;
+}
+
+.forms input[id=name] {
+   width: 328px;
+}
+
+.forms input[id=cpf] {
+   width: 300px;
+}
+
+.obs {
+   margin-left: 85px;
+   margin-top: 30px;
+   padding-bottom: 10px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 15px;
+   line-height: 22px;
+   display: flex;
+   align-items: center;
+   color: #3333338e;
+ }
+
+ .model1 {
+   display: flex;
+   align-items: center;
+   padding: 10px 30px;
+   gap: 80px;
+   justify-content: center;
+ }
+ .model1 input[id=cep] {
+    width: 220px;
+ }
+ .model1 input[id=address] {
+   width: 690px;
+ }
+
+ .model2 {
+   display: flex;
+   align-items: center;
+   padding: 10px 30px;
+   gap: 76px;
+   justify-content: center;
+ }
+ .model2 input[id=num] {
+   width: 220px;
+ }
+ .model2 input[id=complement] {
+   width: 329px;
+ }
+ .model2 input[id=district] {
+   width: 290px;
+ }
+
+ .model3 {
+   display: flex;
+   align-items: center;
+   padding: 10px 30px;
+   gap: 71px;
+   justify-content: center;
+ }
+ .model3 input[id=city] {
+   width: 460px;
+ }
+ .model3 input[id=state] {
+   width: 460px;
+ }
+
+ .model4 {
+   display: flex;
+   align-items: center;
+   padding: 10px 30px;
+   gap: 61px;
+   justify-content: center;
+ }
+ .model4 input[id=tel] {
+   width: 300px;
+ }
+ .model4 select[id=opd] {
+   width: 300px;
+ }
+ .check {
+   margin-top: 25px;
+   width: 270px;
+   height: 43px;
+   padding-top: 8px;
+   background: var(--red);
+   border: 1px solid var(--red);
+   border-radius: 10px;
+   color: white;
+ }
+ .check input {
+   display: flex;
+   margin-left: 180px;
+   margin-top: -18px;
+ }
+
+ .model5 {
+   display: flex;
+   align-items: center;
+   padding: 10px 30px;
+   gap: 58px;
+   justify-content: center;
+ }
+ .model5 input[id=site] {
+   width: 468px;
+   margin-bottom: 20px;
+ }
+ .model5 input[id=email] {
+   width: 468px;
+   margin-bottom: 20px;
+ }
