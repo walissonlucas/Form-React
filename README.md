@@ -12,9 +12,9 @@ The application layout is available in Figma:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/NeiltonSeguins/alura-space.git
+$ git clone https://github.com/walissonlucas/Form-React.git
 # Access the project folder in your terminal/cmd
-$ cd alura-space
+$ cd Form-React
 # Install the dependencies
 $ npm install
 # Run the application in development mode
